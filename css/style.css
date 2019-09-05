@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* mobile menu */
+/* hiding the checkbox */
+.nav-toggle {
+	display: none;
+}
+
+/* STYLING/POSITIONING THE HAMBURGER MENU */
+.nav-toggle-label {
+    position: absolute;
+    z-index: 1;
+	right: 0;
+	margin-right: 1em;
+	display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	display: block;
+	background: #38ceff;
+	height: 3px;
+	width: 30px;
+	border-radius: 2px;
+	position: relative;
+	transition: all .5s ease-in-out;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	content: '';
+	position: absolute;
+}
+
+.nav-toggle-label span::before {
+	bottom: 10px;
+}
+.nav-toggle-label span::after {
+	top: 10px;
+}
+
+#nav-toggle:checked ~ .nav-toggle-label span {
+	background: #fff0; /* setting it to the same background as header so it "disappears" */
+}
+
+/* transforming the before and after span into an X */
+#nav-toggle:checked ~ .nav-toggle-label span::before {
+	transform: rotate(45deg);
+	bottom: 0;
+	background: #38ceff;
+}
+
+#nav-toggle:checked ~ .nav-toggle-label span::after {
+	transform: rotate(-45deg);
+	top: 0;
+	background: #38ceff;
+}
+#menu {
+	position: absolute;
+	background: #fff;
+    text-align: center;
+    z-index: 1;
+	top: 6.7%; /* puts itself directly under the preceeding relative positioned element */
+	left: 0;
+	width: 100%;
+	transform: scale(1, 0);
+	transform-origin: top; /* menu appears from the top instead if center, try and comment this out and see for yourself */
+	transition: transform .4s ease-in-out;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu li {
+	padding: 10px 10px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: opacity .15s ease-in-out;
+}
+#menu li:hover {
+    background-color: #007bff;
+    transition: 1000ms;
+}
+#menu a:hover {
+	color: #fff;
+}
+
+#nav-toggle:checked + #menu {
+	transform: scale(1, 1);
+}
+#nav-toggle:checked ~ #menu a {
+	opacity: 1;
+	transition: opacity .25s ease-in-out .35s;
+}
+@media screen and (max-width: 430px) {
+    #menu {
+        top: 9.4%;
+    }
+}
+@media screen and (max-width: 375px) {
+    #menu {
+        top: 8.4%;
+    }
+}
+@media screen and (max-width: 320px) {
+    #menu {
+        top: 7%;
+    }
+}
+@media screen and (min-width: 768px){
+	.nav-toggle-label {
+		display: none;
+	}	
+	#menu a {
+		opacity: 1;
+	}
+
+	#menu {
+		all: unset;
+        flex: 2;
+        display: none;
+	}
+
+	#menu ul {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	#menu li {
+		margin: auto;
+	}
+}
+.active-nav {
+    border-bottom: 3px solid #02c6da;
+}
+/* end */
+.social_link {
+    background-color: #6d6d6d;
+    display: flex;
+    float: right;
+}
+#navbar {
+    background-color: #5d5d5d;
+}
+.menulist {
+    display: flex;
+    justify-content: flex-end;
+    padding: 18px;
+}
+.menulist li {
+    padding-right: 15px;
+    list-style: none;
+}
+.menulist li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+#h_cover img {
+    width: 100%;
+    height: auto;
+}
+.h_p {
+    padding: 40px 10px;
+    box-shadow: 0 0 15px 0px rgba(171, 157, 157, 0.7);
+    margin-bottom: 68px;
+}
+.h_c, .h_w_center {
+    align-self: center;
+}
+.about_w_h h2{
+    text-align: center;
+    font-weight: 500;
+    margin: 16px 0 49px;
+}
+.what_is p {
+    text-indent: 37px;
+    text-align: justify;
+}
+.about_we_img img {
+    width: 100%;
+    object-fit: cover;
+}
+.icon_h h5 , .icon_desc{
+    text-align: center;
+}
+#about_we {
+    height: 298px;
+}
+.mission {
+    margin-bottom: 40px;
+}
+.h_work_header h5 {
+    color: #fff;
+}
+.h_work_desc p {
+    text-align: justify;
+    color: #fff;
+    text-indent: 28px;
+}
+.h_work_desc img {
+    width: 100%;
+    object-fit: cover;
+}
+#how_work {
+    background-color: #0a7db9;
+    padding: 30px 0 50px;
+}
+.rotate {
+    clip-path: polygon(100% 69%, 0% 100%, 100% 100%);
+    background: #0a7db9;
+    padding: 481px 0 0 0;
+    position: relative;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #4d6876;
+    padding: 30px 0 50px;
+}
+.footer-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-head h5 {
+    color: #fff;
+}
+.footer_list li {
+    list-style: none;
+}
+.footer-left {
+    width: 31%;
+}
+.footer_list li a, .footer-address a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-address a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-right {
+    align-self: center;
+}
