@@ -19,18 +19,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="social_link">
-            <div>
-                <img src="images/" alt="">
-            </div>
-            <div>
-                <img src="images/" alt="">
-            </div>
-            <div>
-                <img src="images/" alt="">
-            </div>
-            <div>
-                <img src="images/" alt="">
+        <div id="social_link">
+            <div class="container-fluid">
+                <div class="social_link">
+                    <ul class="icon-link">
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a style="padding: 2px 10px!important;" href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li style="padding-right:0!important;"><a href=""><i class="fas fa-envelope-open-text"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <section id="navbar">
@@ -102,7 +100,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="icon">
-
+                                <img src="images/mission.jpg" alt="">
                             </div>
                             <br/>
                             <div class="icon_h">
@@ -117,12 +115,12 @@
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="icon">
-
+                                <img style="width:27%;" src="images/vision.jpg" alt="">
                             </div>
                             <br/>
                             <div class="icon_h">
                                 <h5>
-                                    MISSION
+                                    VISION
                                 </h5>
                             </div>
                             
@@ -132,12 +130,12 @@
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="icon">
-
+                                <img src="images/values.jpg" alt="">
                             </div>
                             <br/>
                             <div class="icon_h">
                                 <h5>
-                                    MISSION
+                                    VALUES
                                 </h5>
                             </div>
                             
@@ -190,21 +188,21 @@
                         </div>
                         <div class="footer_menu">
                             <div class="row">
-                                <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-4">
                                     <ul class="footer_list">
                                         <li><a href="policy.php">Policy Analysis</a></li> 
                                         <li><a href="research.php">Research</a></li> 
                                         <li><a href="evaluation.php">Evaluation</a></li> 
                                     </ul>
                                 </div>
-                                <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-4">
                                     <ul class="footer_list">
                                         <li><a href="training.php">Training</a></li> 
                                         <li><a href="index.php">Home</a></li> 
                                         <li><a href="service.php">Free Service</a></li> 
                                     </ul>
                                 </div>
-                                <div class="col-md-4 col-sm-12 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-4">
                                     <ul class="footer_list">
                                         <li><a href="capacity.php">Capacity Building</a></li> 
                                     </ul>
@@ -214,9 +212,9 @@
                     </div>
                     <div class="footer-right">
                         <div class="footer-address">
-                            <a href="tel:+959425303373">09-425303373</a>,<a href="tel:+959781668411">09-781668411</a>,<a href="tel:+959264823566">09-264823566</a> <br/>
-                            <a href="mailto:mdn.yangon@gmail.com">mdn.yangon@gmail.com</a> <br/>
-                            <a href=""> 13, Chantha Street, Sanchaung Township, Yangon, Myanmar. </a>
+                        <i class="fas fa-phone-volume"> &nbsp&nbsp&nbsp</i><a href="tel:+959425303373">09-425303373</a>,<a href="tel:+959781668411">09-781668411</a>,<a href="tel:+959264823566">09-264823566</a> <br/>
+                        <i class="far fa-envelope"></i> &nbsp&nbsp&nbsp<a href="mailto:mdn.yangon@gmail.com">mdn.yangon@gmail.com</a> <br/>
+                        <i class="fas fa-map-marker-alt"></i> &nbsp&nbsp&nbsp<a href=""> 13, Chantha Street, Sanchaung Township, Yangon, Myanmar. </a>
                         </div>
                     </div>
                 </div>
