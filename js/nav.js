@@ -5,7 +5,7 @@
   // Account for home page with empty path
   if ( path == '' ) {
     path = 'index.php';
-  }console.log(path);
+  }
   var target = $('nav a[href="'+path+'"]');
   // var taractive = $('li' + padth );
   // Add active class to target link
