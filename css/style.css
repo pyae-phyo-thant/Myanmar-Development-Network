@@ -785,3 +785,15 @@ transform:scale(0.9);
         width: 520px!important;
     }
 }
+/* -------Training***** */
+
+#training {
+    background: #fff;
+    padding: 114px 0 93px;
+}
+.training_rotate {
+    clip-path: polygon(100% 100%, 0% 500%, 0% 0%);
+    background: #00659a;
+    padding: 69px 0 0 0;
+    position: relative;
+}

@@ -100,7 +100,7 @@
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12 mobile_p_t block animatable bounceInLeft">
                 <div class="pdf_img">
-                    <a href="pdf/climate.pdf" target="_blank">
+                    <a href="pdf/civil.pdf" target="_blank">
                         <div class="pdf_img_hover img-zoom-out">
                             <img src="images/climate.jpg" alt="">
                         </div>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12 mobile_p_t block animatable bounceInLeft">
                 <div class="pdf_img">
-                    <a href="" target="_blank">
+                    <a href="pdf/civil.pdf" target="_blank">
                         <div class="pdf_img_hover img-zoom-out">
                             <img src="images/township.jpg" alt="">
                         </div>
@@ -127,7 +127,7 @@
         <div class="row pdf_p">
             <div class="col-md-4 col-sm-12 col-xs-12 block animatable bounceInLeft">
                 <div class="pdf_img">
-                    <a href="" target="_blank">
+                    <a href="pdf/civil.pdf" target="_blank">
                         <div class="pdf_img_hover img-zoom-out">
                             <img src="images/environment.jpg" alt="">
                         </div>
@@ -139,7 +139,7 @@
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12 mobile_p_t block animatable bounceInLeft">
                 <div class="pdf_img">
-                    <a href="" target="_blank">
+                    <a href="pdf/disasters-in-myanmar_mdn_mm.pdf" target="_blank">
                         <div class="pdf_img_hover img-zoom-out">
                             <img src="images/desaster.jpg" alt="">
                         </div>
