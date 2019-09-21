@@ -797,3 +797,12 @@ transform:scale(0.9);
     padding: 69px 0 0 0;
     position: relative;
 }
+.development-company {
+    background-color: #6d6d6d;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+.development-company a {
+    color: #fff;
+}

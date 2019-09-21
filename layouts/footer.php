@@ -41,3 +41,6 @@
                 </div>
             </div>
         </section>
+        <div class="development-company">
+            Copyright &copy; 2019, Crafted by <a href="https://www.hangulmyanmar.com/">Hangul</a>
+        </div>
